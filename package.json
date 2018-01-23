@@ -1,0 +1,22 @@
+{
+  "name": "reto-js",
+  "version": "1.0.0",
+  "description": "librería para modificar imagenes con diferentes filtros",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucyloules/Reto-JS.git"
+  },
+  "keywords": [
+    "filter"
+  ],
+  "author": "JokerTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucyloules/Reto-JS/issues"
+  },
+  "homepage": "https://github.com/lucyloules/Reto-JS#readme"
+}
