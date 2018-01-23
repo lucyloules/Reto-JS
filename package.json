@@ -1,5 +1,5 @@
 {
-  "name": "reto-js",
+  "name": "i-bookstore",
   "version": "1.0.0",
   "description": "librería para modificar imagenes con diferentes filtros",
   "main": "index.js",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/lucyloules/Reto-JS/issues"
   },
-  "homepage": "https://github.com/lucyloules/Reto-JS#readme"
+  "homepage": "https://github.com/lucyloules/Reto-JS#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  },
+  "devDependencies": {}
 }
