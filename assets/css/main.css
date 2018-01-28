@@ -1,59 +1,79 @@
-
 body{
 	font-family: 'Lato', sans-serif;
 	margin: 0;
-	}
-	#banner {
+	background-color: #CEF6F5;
+}
+/*----------------------------------banner y navbar--------------------------*/
+#banner {
 	width: 100%;
 	position: fixed;
-	background-color:#000;
-	opacity: 0.8;
-  filter: Alpha;
+	background-color: #070719;
 	padding-top: 1em;
 }
-span .fa-bookmark{
-	padding-right:  0.2em;
-	color: #D54528;
-	font-size: 300%;
+
+#btn-menu {
+	display: none;
 }
 
-/*
+.fa-bars {
+	color: #fff;
+}
+
+header label {
+	display: none;
+	padding: 0% 0% 1% 1%;
+}
+
+header label:hover {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.3);
+}
+
+span {
+	padding: 0.5em 2em;
+}
+.img-logo{
+	padding-bottom: 0.5em;
+}
+
 ul {
 	list-style: none;
+	text-align: right;
 	margin-right: 2em;
 }
 
 li {
+	display: inline-block;
 	padding-right: 1em;
 }
 
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #FE2E2E;
 }
 
 #imgcover {
-	background-image: url("../assets/img/background.jpg");
+	background-image: url("../img/banner.jpg");
 	background-size: cover;
 	padding-top: 10%;
 }
 
 h1 {
-  padding-left: 1.8em;
-	margin-bottom: 2.5em;
-	font-size: 70px;
-	color: #CEECF5;
+	margin-bottom: 1em;
+	font-size: 500%;
+	color: #FE2E2E;
   text-align: center;
-  font-family: 'Hanalei', cursive;
+	font-family: 'Berkshire Swash', cursive;
 }
--------------------------------------
+/*-------------------------------Contenido----------------------------------*/
+#text-content, p{
+	margin-top: 1em;
+	font-size: 120%;
+}
+
+/*--------------------------------Demo-------------------------------------*/
 #img-container{
 	border: 1px solid blue;
 	width: 100vh;
 	height: 100vh;
-
-=======
-img{
-	width: 10em;
-	height: 10em;
 }
