@@ -1,3 +1,4 @@
+/*
 //creando botones del contenedor
 //(blanco&negro, sepia, invertir colores y filtro rojo)
 
@@ -11,4 +12,4 @@ const btn-invertColors = document.createElement('button');
 const txt-invertColors = document.createTextNode('Invert Colors');
 
 const btn-redFilter = document.createElement('button');
-const txt-redFilter = document.createTextNode('Red'); 
+const txt-redFilter = document.createTextNode('Red');

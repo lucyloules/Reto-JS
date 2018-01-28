@@ -1,4 +1,51 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	}
+	#banner {
+	width: 100%;
+	position: fixed;
+	background-color:#000;
+	opacity: 0.8;
+  filter: Alpha;
+	padding-top: 1em;
+}
+span .fa-bookmark{
+	padding-right:  0.2em;
+	color: #D54528;
+	font-size: 300%;
+}
 
+/*
+ul {
+	list-style: none;
+	margin-right: 2em;
+}
+
+li {
+	padding-right: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#imgcover {
+	background-image: url("../assets/img/background.jpg");
+	background-size: cover;
+	padding-top: 10%;
+}
+
+h1 {
+  padding-left: 1.8em;
+	margin-bottom: 2.5em;
+	font-size: 70px;
+	color: #CEECF5;
+  text-align: center;
+  font-family: 'Hanalei', cursive;
+}
+-------------------------------------
 #img-container{
 	border: 1px solid blue;
 	width: 100vh;
