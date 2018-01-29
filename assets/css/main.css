@@ -11,24 +11,6 @@ body{
 	padding-top: 1em;
 }
 
-#btn-menu {
-	display: none;
-}
-
-.fa-bars {
-	color: #fff;
-}
-
-header label {
-	display: none;
-	padding: 0% 0% 1% 1%;
-}
-
-header label:hover {
-	cursor: pointer;
-	background-color: rgba(0,0,0,0.3);
-}
-
 span {
 	padding: 0.5em 2em;
 }
@@ -59,6 +41,7 @@ a {
 }
 
 h1 {
+	position: static;
 	margin-bottom: 1em;
 	font-size: 500%;
 	color: #FE2E2E;
@@ -77,3 +60,11 @@ h1 {
 	width: 100vh;
 	height: 100vh;
 }
+#main {
+							 margin-top: 100px;
+							 text-align: center;
+					 }
+					 #canvas {
+							 background-color: #000;
+							 height: 600px;
+							 width: 800px;
