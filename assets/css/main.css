@@ -1,4 +1,79 @@
-img{
-	width: 10em;
-	height: 10em;
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	background-color: #CEF6F5;
+}
+/*----------------------------------banner y navbar--------------------------*/
+#banner {
+	width: 100%;
+	position: fixed;
+	background-color: #070719;
+	padding-top: 1em;
+}
+
+#btn-menu {
+	display: none;
+}
+
+.fa-bars {
+	color: #fff;
+}
+
+header label {
+	display: none;
+	padding: 0% 0% 1% 1%;
+}
+
+header label:hover {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.3);
+}
+
+span {
+	padding: 0.5em 2em;
+}
+.img-logo{
+	padding-bottom: 0.5em;
+}
+
+ul {
+	list-style: none;
+	text-align: right;
+	margin-right: 2em;
+}
+
+li {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #FE2E2E;
+}
+
+#imgcover {
+	background-image: url("../img/banner.jpg");
+	background-size: cover;
+	padding-top: 10%;
+}
+
+h1 {
+	margin-bottom: 1em;
+	font-size: 500%;
+	color: #FE2E2E;
+  text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+}
+/*-------------------------------Contenido----------------------------------*/
+#text-content, p{
+	margin-top: 1em;
+	font-size: 120%;
+}
+
+/*--------------------------------Demo-------------------------------------*/
+#img-container{
+	border: 1px solid blue;
+	width: 100vh;
+	height: 100vh;
 }

@@ -25,8 +25,8 @@ Escala de grises, Sepia, invertir colores, etc
 	- jQuery v.3.1.1
 
 4. Guía de estilos
-	-Se usa guía de estilos de Google 
+	-Se usa guía de estilos de Google
 
-5. Herramienta de comunicación: 
+5. Herramienta de comunicación:
 	- WhatsApp
-	- Slack 
+	- Slack

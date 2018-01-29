@@ -1,4 +1,4 @@
-// 1.-llamo elementos 
+// 1.-llamo elementos
 const container = document.getElementById('primaryContainer');
 const img = document.getElementById('demo');
 
@@ -29,12 +29,12 @@ const btnRedFilter = document.createElement('button');
 const txtRedFilter = document.createTextNode('Red Filter');
 btnRedFilter.setAttribute('class', 'btn btn-primary');
 
- 
+
 // no pude crear un contenedor secundario con insert y no se veian los botones.
 /*  //var reference = document.getElementById('primaryContainer');
   document.body.insertBefore( 'secondaryContainer', 'container'); //inserto div secundario  al inicio del body*/
 
-// 
+//
 secondaryContainer.appendChild(btnBlackWhite);
 btnBlackWhite.appendChild(txtBlackWhite);
 
@@ -48,3 +48,24 @@ secondaryContainer.appendChild(btnRedFilter);
 btnRedFilter.appendChild(txtRedFilter);
 
 // document.body.insertBefore(elemento, referencia);
+
+
+
+
+
+/*----------------------------------------------------------------------------
+estaba en index.js
+//creando botones del contenedor
+//(blanco&negro, sepia, invertir colores y filtro rojo)
+
+const btn-blackWhite = document.createElement('button'); // crea boton
+const txt-blackWhite = document.createTextNode('Black & White');  //crea el textNode
+
+const btn-sepia = document.createElement('button');
+const txt-sepia = document.createTextNode('Sepia');
+
+const btn-invertColors = document.createElement('button');
+const txt-invertColors = document.createTextNode('Invert Colors');
+
+const btn-redFilter = document.createElement('button');
+const txt-redFilter = document.createTextNode('Red');
