@@ -1,7 +1,7 @@
 # Reto-Js
-## Track: Common Core
-## Curso: JS Deep Dive: Crea tu propia librería usando JavaScript
-## Unidad: Producto final
+#### Track: Common Core
+#### Curso: JS Deep Dive: Crea tu propia librería usando JavaScript
+#### Unidad: Producto final
 ------------------------------------------------------------------
 Implementar un plugin de jQuery que dado Plugin Filtro para imágenes
 Plugin de JQuery que permitirá aplicar filtros en imágenes
@@ -17,7 +17,7 @@ Escala de grises, Sepia, invertir colores, etc
 
 3. Herramientas de desarrollo:
 
-	-Control de versiones: GIT
+	- Control de versiones: GIT
 		- Editor de texto: Sublime y Atom
 
 	- Herramientas de producción:
