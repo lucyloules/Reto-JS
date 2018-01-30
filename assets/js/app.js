@@ -82,3 +82,11 @@ img.addEventListener('click', ()=>{
   img.style.filter='blur(-5px)';
 
 });
+
+//se agrega una función para darle estilo a los elementos
+ document.body.onload = addStyle;
+  function addStyle(element) {
+    container.style.marginTop = '2%';
+    button.addClass
+
+  }
