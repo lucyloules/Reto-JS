@@ -1,4 +1,4 @@
-// 1.-llamo elementos 
+// 1.-llamo elementos
 const container = document.getElementById('primaryContainer');
 const img = document.getElementById('demo');
 
@@ -8,7 +8,7 @@ const img = document.getElementById('demo');
 // 2.- llamo al contenedor secundario
 secondaryContainer = document.getElementById('secondaryContainer');
 
-// 3.1 creo boton blanco y negro (elemrntos, texto y atributos)
+// 3.1 creo boton blanco y negro (elementos, texto y atributos)
 const btnBlackWhite = document.createElement('button');
 const txtBlackWhite = document.createTextNode('Black and White');
 btnBlackWhite.setAttribute('class', 'btn btn-primary');
@@ -28,10 +28,10 @@ const btnBlur = document.createElement('button');
 const txtBlur = document.createTextNode('Blur');
 btnBlur.setAttribute('class', 'btn btn-primary');
 
- 
+
 // no pude crear un contenedor secundario con insert y no se veian los botones.
 //const reference = document.getElementById('primaryContainer');
- //document.body.insertBefore(secondaryContainer, reference); 
+ //document.body.insertBefore(secondaryContainer, reference);
 
 // appendeo los botones
 secondaryContainer.appendChild(btnBlackWhite);
@@ -46,7 +46,7 @@ btnInvertColors.appendChild(txtInvertColors);
 secondaryContainer.appendChild(btnBlur);
 btnBlur.appendChild(txtBlur);
 
-  
+
 //Modificacion de imagen, funciones
 
 btnBlackWhite.addEventListener('click', ()=>{
@@ -69,14 +69,14 @@ btnBlur.addEventListener('click', ()=>{
 //funcion que restaurar imagen (no se si crear un nuevo botón
 // o darle la funcionalidad  a la misma imagen)
 /*btnRestore.addEventListener('click', ()=>{
-  img.style.filter='grayscale(0%)'; 
+  img.style.filter='grayscale(0%)';
   img.style.filter='invert(0%)';
   img.style.filter='sepia(0%)';
   img.style.filter='blur(5px)';
 });*/
 
 img.addEventListener('click', ()=>{
-  img.style.filter='grayscale(0%)'; 
+  img.style.filter='grayscale(0%)';
   img.style.filter='invert(0%)';
   img.style.filter='sepia(0%)';
   img.style.filter='blur(-5px)';
