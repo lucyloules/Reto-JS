@@ -8,6 +8,7 @@ Plugin de JQuery que permitirá aplicar filtros en imágenes
 Ej:
 Escala de grises, Sepia, invertir colores, etc
 
+
 1. Metodología de trabajo
 	- Metodología Agile usado por la sencillez y rápidez para lograr proyectos en poco tiempo.
 	- Se descompone en 3 etapas y se realizan dailys diarios y retrospectiva.
