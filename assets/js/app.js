@@ -1,6 +1,6 @@
-'use strict'
-function(IBookstore){
+document.body.onload = IBookstore;
 
+function IBookstore(){
 // 1.-llamo elementos
 const container = document.getElementById('primaryContainer');
 const img = document.getElementById('demo');
@@ -15,25 +15,25 @@ secondaryContainer = document.getElementById('secondaryContainer');
 const btnBlackWhite = document.createElement('button');
 const txtBlackWhite = document.createTextNode('Black and White');
 btnBlackWhite.setAttribute('class', 'btn btn-primary');
-btnBlackWhite.setAttribute('ID', 'btn btn-black');
+btnBlackWhite.setAttribute('id', 'black');
 
 // 3.2 creo boton sepia (elemrntos, texto y atributos)
 const btnSepia = document.createElement('button');
 const txtSepia = document.createTextNode('Sepia');
 btnSepia.setAttribute('class', 'btn btn-primary');
-btnSepia.setAttribute('ID', 'btn btn-sepia');
+btnSepia.setAttribute('id', 'sepia');
 
 // 3.3 creo boton invertir colores (elemrntos, texto y atributos)
 const btnInvertColors = document.createElement('button');
 const txtInvertColors = document.createTextNode('Invert Colors');
 btnInvertColors.setAttribute('class', 'btn btn-primary');
-btnInvertColors.setAttribute('ID', 'btn btn-invert');
+btnInvertColors.setAttribute('id', 'invert');
 
 // 3.4 creo boton filtro rojo (elemrntos, texto y atributos)
 const btnBlur = document.createElement('button');
 const txtBlur = document.createTextNode('Blur');
 btnBlur.setAttribute('class', 'btn btn-primary');
-btnBlur.setAttribute('ID', 'btn btn-Blur');
+btnBlur.setAttribute('id', 'blur');
 
 
 // no pude crear un contenedor secundario con insert y no se veian los botones.
@@ -55,6 +55,7 @@ btnBlur.appendChild(txtBlur);
 
 
 //Modificacion de imagen, funciones
+
 
 btnBlackWhite.addEventListener('click', ()=>{
     img.style.filter='grayscale(100%)'; //cambia a blanco y negro
@@ -93,20 +94,8 @@ img.addEventListener('click', ()=>{
 //se agrega una función para darle estilo a los elementos
  document.body.onload = addStyle;
   function addStyle(element) {
-    container.style.marginTop = '2%';
-    button.addClass
+   /* container.style.marginTop = '2%';*/
 
   }
-
-if ('btn-black'== null) {
-  return(true);
-}else if ('btn-Sepia' == null) {
-  return(true);
-}else if('btn-invert'== null){
-  return(true);
-}else('btn-Blur'== null){
-  return(true);
-}
-
 
 }
