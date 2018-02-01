@@ -1,6 +1,7 @@
 document.body.onload = IBookstore;
 
 function IBookstore(){
+
 // 1.-llamo elementos
 const container = document.getElementById('primaryContainer');
 const img = document.getElementById('demo');
@@ -16,6 +17,12 @@ const btnBlackWhite = document.createElement('button');
 const txtBlackWhite = document.createTextNode('Black and White');
 btnBlackWhite.setAttribute('class', 'btn btn-primary');
 btnBlackWhite.setAttribute('id', 'black');
+/*if('black' !== null){
+  black.filter(true){
+  }else {
+    return('Error')
+  }
+}*/
 
 // 3.2 creo boton sepia (elemrntos, texto y atributos)
 const btnSepia = document.createElement('button');
@@ -88,14 +95,11 @@ img.addEventListener('click', ()=>{
   img.style.filter='invert(0%)';
   img.style.filter='sepia(0%)';
   img.style.filter='blur(-5px)';
-
 });
 
 //se agrega una función para darle estilo a los elementos
  document.body.onload = addStyle;
   function addStyle(element) {
    /* container.style.marginTop = '2%';*/
-
   }
-
 }
