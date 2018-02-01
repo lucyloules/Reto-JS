@@ -5,21 +5,21 @@ const { window } = dom;
 global.document = dom;
 global.window = window;
 global.navigator = {
- userAgent: 'node.js',
+  userAgent: 'node.js',
 };
 
-const $=require('jquery');
+const $ = require('jquery');
 
 describe('testeando', ()=>{
-  it('pasa cuando el body tiene hijos', function(){
-    dom.window.document.body.children.length>=1;
+  it('pasa cuando el body tiene hijos', function() {
+    dom.window.document.body.children.length >= 1;
   });
 
-  it('pasa si la imagen tiene alt', function(){
-    $('#demo').attr('alt') !=='';
+  it('pasa si la imagen tiene alt', function() {
+    $('#demo').attr('alt') !== '';
   });
 
-  it('pasa si la imagen tiene src', function(){
-    $('#demo').attr('src') !=='';
+  it('pasa si la imagen tiene src', function() {
+    $('#demo').attr('src') !== '';
   });
 });
