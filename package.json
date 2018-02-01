@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/lucyloules/Reto-JS#readme",
   "dependencies": {
-    "bootstrap3": "^3.3.5",
+    "bootstrap4": "0.0.1-security",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
