@@ -39,16 +39,14 @@ iBoostore es una librería para imagenes. En la versión 1.0.1 esta librería co
  Si lo tuyo es la programación puedes hacer correr el test que incluimos en el repositorio.
 
  
-## Demo
-
-https://lucyloules.github.io/Reto-JS/
+[Ir al demo..](https://lucyloules.github.io/Reto-JS/) 
 
 ## Joker Team
 
 Joker Team, es un equipo de coders de laboratoria de la generación 2017-2. Si tienes preguntas sobre la instalación, o quieres saber de la próxima versión contactanos por GIthub... y aclararemos tus dudas
 
-- *Lucia* https://github.com/lucyloules
-- *Maite* https://github.com/Meliza-fb
+- [Lucia](https://github.com/lucyloules) 
+- [Maite](https://github.com/Meliza-fb) 
 
 
 

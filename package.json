@@ -1,6 +1,6 @@
 {
-  "name": "i-bookstore",
-  "version": "1.0.0",
+  "name": "ibookstore",
+  "version": "1.0.2",
   "description": "librería para modificar imagenes con diferentes filtros",
   "main": "index.js",
   "scripts": {
