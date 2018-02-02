@@ -81,3 +81,8 @@ text-align: center;
 	margin-left: 4%;
 	border-radius: 50%;
 }
+#steps{
+	width: 80%;
+	margin-left: 10%;
+	background-color: gray;
+}
