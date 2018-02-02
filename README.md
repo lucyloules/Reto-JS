@@ -73,7 +73,5 @@ Joker Team, es un equipo de coders de laboratoria de la generación 2017-2. Si t
 
 
 
-
+##Demo
 https://meliza-fb.github.io/Reto-JS/
-
-## Ejemplos de uso
