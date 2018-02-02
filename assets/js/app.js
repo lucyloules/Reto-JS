@@ -14,31 +14,25 @@ function IBookstore() {
   // 3.1 creo boton blanco y negro (elementos, texto y atributos)
   const btnBlackWhite = document.createElement('button');
   const txtBlackWhite = document.createTextNode('Black and White');
-  btnBlackWhite.setAttribute('class', 'btn btn-primary');
+  btnBlackWhite.setAttribute('class', 'btn btn-outline-dark');
   btnBlackWhite.setAttribute('id', 'black');
-  /* if('black' !== null){
-  black.filter(true){
-  }else {
-    return('Error')
-  }
-}*/
 
   // 3.2 creo boton sepia (elemrntos, texto y atributos)
   const btnSepia = document.createElement('button');
   const txtSepia = document.createTextNode('Sepia');
-  btnSepia.setAttribute('class', 'btn btn-primary');
+  btnSepia.setAttribute('class', 'btn btn-outline-warning');
   btnSepia.setAttribute('id', 'sepia');
 
   // 3.3 creo boton invertir colores (elemrntos, texto y atributos)
   const btnInvertColors = document.createElement('button');
   const txtInvertColors = document.createTextNode('Invert Colors');
-  btnInvertColors.setAttribute('class', 'btn btn-primary');
+  btnInvertColors.setAttribute('class', 'btn btn-outline-info');
   btnInvertColors.setAttribute('id', 'invert');
 
   // 3.4 creo boton filtro rojo (elemrntos, texto y atributos)
   const btnBlur = document.createElement('button');
   const txtBlur = document.createTextNode('Blur');
-  btnBlur.setAttribute('class', 'btn btn-primary');
+  btnBlur.setAttribute('class', 'btn btn-outline-success');
   btnBlur.setAttribute('id', 'blur');
 
 

@@ -1,3 +1,6 @@
+html{
+	overflow-x: hidden;
+}
 body{
 	font-family: 'Lato', sans-serif;
 	margin: 0;
@@ -5,22 +8,19 @@ body{
 }
 /*----------------------------------banner y navbar--------------------------*/
 #banner {
+	padding-top: 0.5em;
 	width: 100%;
-	position: fixed;
-	background-color: #070719;
-	padding-top: 1em;
+	position: static;
+	background-color: #0A0A2A;
+	/*padding-top: 1em;*/
 }
-
-span {
+span{
 	padding: 0.5em 2em;
 }
-.img-logo{
-	padding-bottom: 0.5em;
-}
-
 ul {
+	padding-top: 1.5em;
 	list-style: none;
-	text-align: right;
+text-align: right;
 	margin-right: 2em;
 }
 
@@ -31,7 +31,7 @@ li {
 
 a {
 	text-decoration: none;
-	color: #FE2E2E;
+	color: #DF7401;
 }
 
 #imgcover {
@@ -44,7 +44,7 @@ h1 {
 	position: static;
 	margin-bottom: 1em;
 	font-size: 500%;
-	color: #FE2E2E;
+	color: #DF7401;
   text-align: center;
 	font-family: 'Berkshire Swash', cursive;
 }
@@ -53,18 +53,31 @@ h1 {
 	margin-top: 1em;
 	font-size: 120%;
 }
+.btn{
+	margin-left: 2%;
+}
 
-/*--------------------------------Demo-------------------------------------*/
+/*--------------------------------image container-------------------------------------*/
+#content-img{
+	padding-top: 3em;
+}
 #img-container{
 	border: 1px solid blue;
 	width: 100vh;
 	height: 100vh;
 }
-#main {
-							 margin-top: 100px;
-							 text-align: center;
-					 }
-					 #canvas {
-							 background-color: #000;
-							 height: 600px;
-							 width: 800px;
+#demo{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#bonding{
+background-color: #0A0A2A;
+}
+#bonding, ol{
+margin-top: 1.5em;
+text-align: center;
+}
+.Log{
+	margin-left: 4%;
+	border-radius: 50%;
+}
