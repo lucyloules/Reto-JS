@@ -1,7 +1,14 @@
 # iBookstore
 ------------------------------------------------------------------
+
 ## Características: librería para imagenes. Esta librería contiene los filtros de blanco y negro, sepia, invertir color y desenfoque
 ![carpeta](/assets/img/illustration/allFilters.jpg)
+## Características:
+
+iBoostore es una librería para imagenes. En la versión 1.0.1 esta librería contiene los filtros de blanco y negro, sepia, invertir color y desenfoque. Las siguentes imagenes te muestran la imagen original y la otra los filtros de esta versión.
+
+![demo](https://github.com/lucyloules/Reto-JS/blob/master/assets/img/illustration/demo%20-%20mini.jpg?raw=true)
+![ejemplo-de-uso](https://github.com/lucyloules/Reto-JS/blob/master/assets/img/illustration/all%20filters.jpg?raw=true)
 
 ## Requerimientos técnicos
 
@@ -9,7 +16,6 @@
 - Control de versiones GIT
 - chai v.4.1.2
 - mocha v.5.0.0
-- jsdom v.11.6.2
 
 ### Herramientas de producción:
 - jQuery v.3.3.1
@@ -22,32 +28,42 @@
  Cuando se seleccione un botón (ej: sepia), a la imagen se le aplicara el filtro y para que restaurar la imagen solo tendrá que darle un click a la imagen.
 
 ## Instalación
+- bootstrap4" v 0.0.1-security
 
+### Herramientas de testing
+- jsdom v.11.6.2
 
 ## Guía de estilos
-	- Se usa guía de estilos de Google
-
-## Herramienta de comunicación:
-	- WhatsApp
-	- Slack
-	- Github
-
-## Modo de uso
+  - Guía de estilos de Google para Laboratoria
 
 
-```html
+## Tutorial de Instalación y Uso
+ 1. Descargar el repositorio de este Github
+ 2. Para poder utilizar esta librería, debes ir hasta tu html y crear un 'div' con id  `id="secundaryContainer"`. Allí se ubicarán tus botones que creados dinámicamente para ti.
+ También, necesitarás crear un otro 'div'  con id  `id="primaryContainer"`, en donde se ubicará una etiqueta img donde tendrás que rutear tu imagen favorita. Para este caso, usamos una imagen llamada demo.jpg.
+ ![Contenedores](https://github.com/lucyloules/Reto-JS/blob/master/assets/img/contenedores.jpg?raw=true)
+
+ 3. Por último, tendrás que enlazar el archivo app.js a tu archivo html y ya podrás disfutar de iBookstore como más te guste!
+  ![primary Container](https://github.com/lucyloules/Reto-JS/blob/master/assets/img/script.jpg?raw=true)
 
 <div id="secondaryContainer"> <!--(botones)--> </div>
 
 <div id="primaryContainer"><img id="demo" src="assets/img/demo.jpg" alt="photo demo"></div>
 
 ```
+ 4. ¿Cómo sabré si funciona correctamente?
+ Cuando se seleccione un botón (ej: sepia), a tu imagen se le aplicará el filtro y para que restaurar la imagen solo tendrá que darle un click a la imagen. Todos los botones funcionan del mismo modo... fácil, no?
+ Si lo tuyo es la programación puedes hacer correr el test que incluimos en el repositorio.
 
 
+[Ir al demo..](https://lucyloules.github.io/Reto-JS/)
 
-## Instalación
+## Joker Team
 
-- Descarga este repositorio github.
+Joker Team, es un equipo de coders de laboratoria de la generación 2017-2. Si tienes preguntas sobre la instalación, o quieres saber de la próxima versión contactanos por GIthub... y aclararemos tus dudas
+
+- [Lucia](https://github.com/lucyloules)
+- [Maite](https://github.com/Meliza-fb)
 
 - Enlaza el archivo app.js que se encuentra dentro de la carpeta assets/js.
 
@@ -56,7 +72,7 @@
 ```
 
 
-## Demo
+
 
 https://meliza-fb.github.io/Reto-JS/
 
