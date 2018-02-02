@@ -1,10 +1,7 @@
 # iBookstore
 ------------------------------------------------------------------
 ## Características: librería para imagenes. Esta librería contiene los filtros de blanco y negro, sepia, invertir color y desenfoque
-![carpeta](/assets/img/illustration/BlackWhite.jpg)
-![carpeta](/assets/img/illustration/Sepia.jpg)
-![carpeta](/assets/img/illustration/invert.jpg)
-![carpeta](/assets/img/illustration/blur.jpg)
+![carpeta](/assets/img/illustration/allFilters.jpg)
 
 ## Requerimientos técnicos
 
