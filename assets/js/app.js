@@ -56,7 +56,6 @@ function IBookstore() {
 
   // Modificacion de imagen, funciones
 
-
   btnBlackWhite.addEventListener('click', ()=>{
     img.style.filter = 'grayscale(100%)'; // cambia a blanco y negro
   });
@@ -90,9 +89,11 @@ function IBookstore() {
     img.style.filter = 'blur(-5px)';
   });
 
-  // se agrega una función para darle estilo a los elementos
+/* //se agrega una función para darle estilo a los elementos
   document.body.onload = addStyle;
   function addStyle(element) {
-    /* container.style.marginTop = '2%';*/
-  }
+    // container.style.marginTop = '2%';
+  } 
+
+  */
 }
