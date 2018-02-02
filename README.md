@@ -3,7 +3,7 @@
 iBookstore es una librería para imagenes. En la versión 1.0.1 esta librería contiene los filtros de blanco y negro, sepia, invertir color y desenfoque. Las siguentes imagenes te muestran la imagen original y la otra los filtros de esta versión.
 
 ![demo](https://github.com/lucyloules/Reto-JS/blob/master/assets/img/illustration/demo%20-%20mini.jpg?raw=true)
-![ejemplo-de-uso](https://github.com/lucyloules/Reto-JS/blob/master/assets/img/illustration/all%20filters.jpg?raw=true)
+![ejemplo-de-uso](https://github.com/lucyloules/Reto-JS/blob/master/assets/img/illustration/allFilters.jpg?raw=true)
 
 ## Requerimientos técnicos
 
