@@ -1,10 +1,10 @@
 # iBookstore
 ------------------------------------------------------------------
 ## Características: librería para imagenes. Esta librería contiene los filtros de blanco y negro, sepia, invertir color y desenfoque
-![carpeta](/assets/img/BlackWhite.jpg)
-![carpeta](/assets/img/Sepia.jpg)
-![carpeta](/assets/img/invert.jpg)
-![carpeta](/assets/img/blur)
+![carpeta](/assets/img/illustration/BlackWhite.jpg)
+![carpeta](/assets/img/illustration/Sepia.jpg)
+![carpeta](/assets/img/illustration/invert.jpg)
+![carpeta](/assets/img/illustration/blur.jpg)
 
 ## Requerimientos técnicos
 
@@ -15,13 +15,13 @@
 - jsdom v.11.6.2
 
 ### Herramientas de producción:
-- jQuery v.3.2.1
-- bootstrap4" v 0.0.1-security
-    "jquery": v 3.3.1
+- jQuery v.3.3.1
+- Bootstrap4" v 0.0.1-security
+
 
 ## Modo de uso
- 
- Para poder utilizar esta librería, deberá crear una 'div'  con la clase = "container"` y un `id="mainContainer"`. El primero, contiene los botones y el segungo contiene la etiqueta img con la imagen que utilizaremos.
+
+ Para poder utilizar esta librería, deberá crear dos 'div' por separado con un ID = "secondaryContainer"` y un `id="primeroContainer"`. El primero, contiene los botones y el segundo contiene la etiqueta img con la imagen que utilizaremos.
  Cuando se seleccione un botón (ej: sepia), a la imagen se le aplicara el filtro y para que restaurar la imagen solo tendrá que darle un click a la imagen.
 
 ## Instalación
@@ -40,7 +40,9 @@
 
 ```html
 
-<div class='imgHover'><img>src="ruta-imagen" alt="frase que se muestra al pasar el mouse"</img></div>
+<div id="secondaryContainer"> <!--(botones)--> </div>
+
+<div id="primaryContainer"><img id="demo" src="assets/img/demo.jpg" alt="photo demo"></div>
 
 ```
 
@@ -50,20 +52,15 @@
 
 - Descarga este repositorio github.
 
-- Enlaza el archivo main.js que se encuentra dentro de la carpeta lib.
+- Enlaza el archivo app.js que se encuentra dentro de la carpeta assets/js.
 
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="./lib/main.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 ```
-![carpeta](/assets/img/imagen.png)
+
 
 ## Demo
 
-https://aguerrav.github.io/demo-cardify/
+https://meliza-fb.github.io/Reto-JS/
 
 ## Ejemplos de uso
-
-![ejemplo-de-uso](https://media.giphy.com/media/xThtaygOxYCxhrKEgw/giphy.gif)
-
-![ejemplo-de-html](/assets/img/cardifyimg.jpg)
